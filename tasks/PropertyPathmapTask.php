@@ -1,7 +1,7 @@
 <?php
 require_once 'phing/Task.php';
 include_once 'phing/system/util/Properties.php';
-include_once dirname(__FILE__) . '/../utility/MyStringHelper.php';
+include_once dirname(__FILE__) . '/../util/MyStringHelper.php';
 
 class PropertyPathmapTask extends Task {
     protected $name;

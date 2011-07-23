@@ -1,6 +1,6 @@
 <?php
 require_once 'phing/mappers/FileNameMapper.php';
-require_once dirname(__FILE__) . '/../utility/MyStringHelper.php';
+require_once dirname(__FILE__) . '/../util/MyStringHelper.php';
 
 class PathMapper implements FileNameMapper {
     protected $to;
